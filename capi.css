@@ -19,12 +19,20 @@ body {
     margin-right: 5px;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
     background-color:#21C1E1 ;
 }
 
 .card-body {
     background-color: #51E4DF ;
+}
+
+.gradiente {
+    background:  linear-gradient(to top, #fe7f2d, #a1c181, #51E4DF)
 }
 
 .footer {
