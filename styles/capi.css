@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Patrick Hand', cursive;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .aside {
+        display: none;
+    }
+}
+
+.btn-danger {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    background-color:#21C1E1 ;
+}
+
+.card-body {
+    background-color: #51E4DF ;
+}
+
+
+.footer {
+    background-color: #FFD643;
+}
+
+.redes {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-facebook {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    text-align: center;
+}
+.bi-facebook:hover {
+    color: #0e14cf;
+}
+
+.bi-instagram {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    text-align: center;
+}
+.bi-instagram:hover {
+    color: #ff6a00;
+}
+
+.bi-tiktok {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+    text-align: center;
+}
+.bi-tiktok:hover {
+    color: rgb(152, 18, 167) ;
+}
+
+
+

@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+    .aside {
+        display: none;
+    }
+}
+
+h1 {
+    background-color: $azulTitulos ;
+}
+
+.card-body {
+    background-color: $azulContenido ;
+}
