@@ -28,6 +28,9 @@ a {
   .aside {
     display: none;
   }
+  .nav-item {
+    margin-top: 3px;
+  }
 }
 h1 {
   background-color: #21C1E1;
@@ -38,15 +41,38 @@ h1 {
   font-size: 20px;
 }
 
-.footer {
-  background-color: #FFD643;
+.backgroundimg {
+  background-image: url(../imagenes/CAPI\ logo.jpeg) ;
+  background-size: 100% 100%;
+  padding-bottom: 80px;
+  opacity: 0.6;
+  
 }
 
-.redes {
+.formato {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  
+}
+
+.footer {
+  background-color: #FFD643;
+  color: #fff;
+}
+
+/*.redes {
   display: flex;
   display: inline-block;
   justify-content: center;
   align-items: center;
+} */
+.redes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
 }
 
 .bi-facebook {
@@ -84,3 +110,7 @@ h1 {
 .bi-tiktok:hover {
   color: rgb(152, 18, 167);
 }/*# sourceMappingURL=styles.css.map */
+
+.visita-redes {
+  font-size: 40px;
+}
